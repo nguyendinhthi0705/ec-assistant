@@ -43,8 +43,8 @@ def get_titan_image_background_replacement_request_body(prompt, image_bytes, mas
         "imageGenerationConfig": {
             "numberOfImages": 1,  # Number of variations to generate
             "quality": "premium",  # Allowed values are "standard" and "premium"
-            "height": 512,
-            "width": 512,
+            "height": 768,
+            "width": 1280,
             "cfgScale": 8.0,
             "seed": randint(0, 100000),  # Use a random seed
         },

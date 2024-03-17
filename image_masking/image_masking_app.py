@@ -40,7 +40,7 @@ def image_masking():
  with col3:
     st.subheader("Result")
     
-    prompt_text = st.text_area("Prompt text:", height=100, help="The prompt text")
+    prompt_text = st.text_area("Prompt text:", height=100, help="The prompt text", value="Framed photographs over a desk, with a stool under the desk")
 
     painting_mode = st.radio("Painting mode:", ["INPAINTING", "OUTPAINTING"])
     

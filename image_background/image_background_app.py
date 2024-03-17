@@ -22,7 +22,7 @@ def image_background():
     
     mask_prompt = st.text_input("Object to keep:", value="Car", help="The mask text")
     
-    prompt_text = st.text_area("Description including the object to keep and background to add:", value="Car at the beach", height=100, help="The prompt text")
+    prompt_text = st.text_area("Description including the object to keep and background to add:", value="Car at the beach, blue sky, white sand", height=100, help="The prompt text")
     
     negative_prompt = st.text_input("What should not be in the background:", help="The negative prompt")
 
